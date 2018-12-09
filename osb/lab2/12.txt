@@ -1,0 +1,15 @@
+$ man uname
+$ sudo su
+$ cd h<tab>
+$ cd
+$ export || $ env
+$ echo $TERM
+$ export www='xxx'
+$ echo $www
+$ export || $ env
+$ unset www
+$ history
+$ !<command №> || !-<command № from end>
+$ echo $www
+$ exit
+$ echo $www
