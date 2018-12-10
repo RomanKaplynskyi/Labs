@@ -1,0 +1,5 @@
+$ grep -c -E '\<[A-z]{6}\>|\<[A-z]{8}\>' city.txt > newfile.txt
+$ sort -u city.txt >> newfile.txt
+$ cat newfile.txt
+$ dirs &> error.txt
+$ //later
