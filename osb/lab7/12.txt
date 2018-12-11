@@ -1,0 +1,25 @@
+$ sudo -s
+$ useradd -b /home William & useradd -b /home Mathias & useradd -b /home Oliver
+$ passwd William $ passwd Mathias & passwd Oliver
+$ usermod -c Larsen William & usermod -c Andersen Mathias & usermod -c Nilsen Oliver
+$ usermod -d /home/Nilsen Oliver
+$ login William & login Mathias & login Oliver
+$ login William
+
+$ sudo -s
+$ usermod -s /bin/sh Mathias
+$ groupadd Norway
+$ usermod -aG Norway William & usermod -aG Norway Mathias & usermod -aG Norway Oliver
+$ mkdir /home/Norway
+$ chown William /home/Norway
+$ chgrp Norway /home/Norway
+
+$ >test.txt
+$ chmod 700 test.txt
+
+$ cat test.txt
+$ chmode 702 test.txt
+$ usermod -e 2018-1X-YZ Mathias
+
+$ mkdir /home/Norway/testdir
+$ cmod 702

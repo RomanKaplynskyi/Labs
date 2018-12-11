@@ -1,3 +1,8 @@
 $ sleep 1000
-$ <ctrl-z> bg [RET]
-$ 
+$ <Ctrl + Z> bg
+$ ps *запам’ятати PID*
+$ ps j [PID]
+$ pstree -h
+$ top -p [PID]
+$ kill [PID]
+$ top <f>

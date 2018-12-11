@@ -1,5 +1,4 @@
-$ mkdir abc abc/def abc/xyz abc/def/ghi/123 abc/def/ghi/456
-$ 
-$
-$
-$ ls -la 
+$ mkdir -p abc/xyz abc/def/ghi/{123,456}
+$ find abc/ | xargs -I{} sh -c "nl city.txt | grep -E  ^ *1?[02468]  | grep -o  [A-Z].*  > {}/1.txt"
+$ find abc/ -mindepth 2 -type f | xargs rm
+$ sudo find /etc/ -type f > files.txt | sudo find /etc/ -type d > folders.txt
