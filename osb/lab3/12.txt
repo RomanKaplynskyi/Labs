@@ -1,0 +1,8 @@
+$ cat test.txt city.txt pass.txt
+$ wc -c test.txt city.txt pass.txt
+$ cut passwd.txt -d':' -f6,7
+$ head -12 passwd.txt
+$ sort city.txt -r
+$ sed 's/ //g' city.txt
+$ grep ^Au city.txt 
+$ split city.txt -3

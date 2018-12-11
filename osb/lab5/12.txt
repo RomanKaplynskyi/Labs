@@ -1,0 +1,5 @@
+$ mkdir abc abc/def abc/xyz abc/def/ghi/123 abc/def/ghi/456
+$ 
+$
+$
+$ ls -la 
