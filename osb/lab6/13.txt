@@ -1,0 +1,15 @@
+sleep 1000
+Cntrl+Z
+ps -ef|grep sleep
+pstree
+top
+Ctrl+C
+kill-KILL PID
+
+exit(Cntrl+D)
+sleep 31212 &
+ps -ef|grep sleep
+renice -n 10 -p PID
+Cntrl+C
+kill-KILL PID
+
