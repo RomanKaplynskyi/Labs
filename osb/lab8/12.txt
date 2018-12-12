@@ -1,0 +1,12 @@
+$ apt list --installed
+$ sudo apt upgrade
+$ sudo apt install mc
+$ mc
+$ apt show mc
+$ [
+  #!/bin/bash
+
+  read -p 'Type your msg: ' msg
+  echo -e $msg | tr -d '[:space:]'
+]
+$ dpkg-deb --build ./12

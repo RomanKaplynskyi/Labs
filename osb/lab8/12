@@ -1,0 +1,4 @@
+#!/bin/bash
+
+read -p 'Type your msg: ' msg
+echo -e $msg | tr -d '[:space:]'
