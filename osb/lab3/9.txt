@@ -1,0 +1,8 @@
+cat test.txt city.txt pass.txt
+cat test.txt city.txt pass.txt | wc -c 
+cat pass.txt | cut -d':' -f1,3
+cat pass.txt | head -9
+cat city.txt | sort
+cat city.txt | sed 's/,/,,/g'
+cat city.txt | grep -P -v 'Spain|Vienna'
+cat city.txt | split -3
