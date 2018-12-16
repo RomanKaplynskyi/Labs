@@ -1,0 +1,5 @@
+cat city.txt | egrep -w '[A-Z][a-z]{5}' | wc -l   >>newfile.txt
+cat city.txt | egrep -v 'Hungary|Spain' | sort  >>newfile.txt
+cat newfile.txt
+id > result.txt 2>result.txt
+cat /etc/passwd | grep '/bin/bash' | cut -d':' -f1 | xargs -I '{}' grep user={} /var/log/auth.log 2>/dev/null | grep sudo:auth
