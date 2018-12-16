@@ -1,0 +1,11 @@
+sleep 1000
+   // Press <Ctrl + Z> 
+bg
+ps  // Запам’ятайе PID
+ps j [PID]
+pstree -h
+top -p [PID]
+kill [PID]
+
+ps  // Введіть в першому терміналі. Запам'ятайте PID.
+kill [PID]
