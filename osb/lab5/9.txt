@@ -1,4 +1,4 @@
-cat /etc/passwd | grep '/bin/bash' | cut -d':' -f1 | xargs -I '{}' grep user={} /var/log/auth.log 2>/dev/null | grep sudo:auth
+mkdir {0..9} {0..9}/{0..9} {0..9}/{0..9}/{0..9} | xargs -I{} sh -c 'echo Hello world > {}/1.txt'
 
 find [0-9] | grep '\([0-9]\).*\1'
 
