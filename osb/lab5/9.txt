@@ -1,0 +1,5 @@
+cat /etc/passwd | grep '/bin/bash' | cut -d':' -f1 | xargs -I '{}' grep user={} /var/log/auth.log 2>/dev/null | grep sudo:auth
+
+find [0-9] | grep '\([0-9]\).*\1'
+
+echo $PATH | sed 's/:/\n/g' | xargs -I{} sh -c 'find {} -type f' | du -a | sort -n | head |grep -o './.*' | xargs -I{} sudo cp {} /root/test
